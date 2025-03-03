@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        text-align: center;
+        padding: 6rem 2rem 2rem;
+      }
+      .section__container {
+        max-width: 600px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .contact-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+      }
+      .contact-links a {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+      }
+      .contact-links a:hover {
+        color: #a855f7;
+      }
+      .contact-links img {
+        width: 30px;
+        height: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="index.html">Lila Landa</a></div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <h1>Lets connect!</h1>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/lila-landa-139b62223/" target="_blank">
+            <img src="linkedin-logo.png" alt="LinkedIn" /> LinkedIn
+          </a>
+          <a href="https://x.com/lilalandaok" target="_blank">
+            <img src="twitter-logo.png" alt="Twitter" /> X
+          </a>
+          <a href="mailto:landapakelilastephany@gmail.com">
+            <img src="email-logo.png" alt="Email" /> Email
+          </a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
